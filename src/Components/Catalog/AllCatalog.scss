@@ -9,8 +9,6 @@
   padding: 1% 2% 1% 2%;
   height: auto;
   width: 100%;
-
-  border: solid 1px purple;
 }
 
 .CardBox {
@@ -32,8 +30,6 @@
   padding: 5% 0% 0% 0%;
   height: 60%;
   width: 90%;
-
-  /* border: solid 1px red; */
 }
 
 .CardBoxImage img {
@@ -50,8 +46,6 @@
   padding: 0%;
   height: 30%;
   width: 90%;
-
-  /* border: solid 1px red; */
 }
 
 .Description {
@@ -63,8 +57,6 @@
   padding: 0%;
   height: 100%;
   width: 80%;
-
-  /* border: solid 1px red; */
 }
 
 .Description p {
@@ -82,8 +74,6 @@
   padding: 0%;
   height: 100%;
   width: 20%;
-
-  /* border: solid 1px red; */
 }
 
 .Plus-circle {
@@ -96,4 +86,14 @@
 .Plus-circle:hover {
   color: teal;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .CardBox { width: 100%; }
+  .Plus-circle { font-size: 40px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .CardBox { width: 100%; }
+  .Plus-circle { font-size: 40px; }
 }

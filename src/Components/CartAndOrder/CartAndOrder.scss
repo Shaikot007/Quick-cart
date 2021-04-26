@@ -7,8 +7,6 @@
   padding: 0%;
   height: auto;
   width: 100%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .CartAndOrderHeader {
@@ -20,8 +18,6 @@
   padding: 0%;
   height: auto;
   width: 100%;
-
-  border: solid 1px red;
 }
 
 .Cart {
@@ -33,8 +29,6 @@
   padding: 1%;
   height: auto;
   width: 100%;
-
-  border: solid 1px red;
 }
 
 .CartItem {
@@ -60,8 +54,6 @@
   padding: 0%;
   height: 30px;
   width: 100%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .CartItemHeader p {
@@ -98,8 +90,6 @@
   padding: 0%;
   height: 50px;
   width: 100%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .TotalBox {
@@ -111,8 +101,6 @@
   padding: 0%;
   height: 100%;
   width: 50%;
-
-  /* border: solid 1px rebeccapurple; */
 }
 
 .TotalBox h6 {
@@ -135,8 +123,6 @@
   padding: 0%;
   height: 100%;
   width: 50%;
-
-  /* border: solid 1px rebeccapurple; */
 }
 
 .PaymentOptions {
@@ -148,8 +134,6 @@
   padding: 0%;
   height: 100%;
   width: 20%;
-
-  /* border: solid 1px rebeccapurple; */
 }
 
 .PaymentOptions img {
@@ -176,4 +160,22 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .CartAndOrder { padding: 0% 5% 0% 5%; }
+  .Cart { flex-direction: column; }
+  .CartItem { width: 95%; }
+  .Checkout { margin: 5% 2% 5% 2%; width: 100%; }
+  .Checkout form { width: 100%; }
+  .PaymentOptions { height: 85%; width: 30%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .CartAndOrder { padding: 0% 5% 0% 5%; }
+  .Cart { flex-direction: column; }
+  .CartItem { width: 95%; }
+  .Checkout { margin: 5% 2% 5% 2%; width: 100%; }
+  .Checkout form { width: 100%; }
+  .PaymentOptions { height: 80%; width: 25%; }
 }

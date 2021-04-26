@@ -1,5 +1,5 @@
 import React from "react";
-import "./CartAndOrder.css";
+import "./CartAndOrder.scss";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import VisaCard from "../../Assets/Images/Visa_card.png";
 import MasterCard from "../../Assets/Images/Master_card.png";

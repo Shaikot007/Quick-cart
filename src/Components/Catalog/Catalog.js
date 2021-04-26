@@ -1,5 +1,5 @@
 import React from "react";
-import "./Catalog.css";
+import "./Catalog.scss";
 import { Button } from "reactstrap";
 import AllCatalog from "./AllCatalog";
 import BeautyCatalog from "./BeautyCatalog";

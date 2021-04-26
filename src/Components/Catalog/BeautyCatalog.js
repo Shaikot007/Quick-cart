@@ -1,5 +1,5 @@
 import React from "react";
-import "./AllCatalog.css";
+import "./AllCatalog.scss";
 import Data from "../../Assets/db.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

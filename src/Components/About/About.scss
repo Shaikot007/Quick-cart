@@ -7,8 +7,6 @@
   padding: 0%;
   height: auto;
   width: 100%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .AboutHeader {
@@ -20,8 +18,6 @@
   padding: 0%;
   height: auto;
   width: 100%;
-
-  border: solid 1px red;
 }
 
 .AboutBox {
@@ -34,11 +30,19 @@
   height: auto;
   width: 100%;
   text-align: justify;
-
-  border: solid 1px red;
 }
 
 .AboutBox p {
   margin-top: 1rem;
   font-size: 15px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .About { padding: 5%; }
+  .AboutBox p { font-size: 18px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .About { padding: 5%; }
+  .AboutBox p { font-size: 20px; }
 }

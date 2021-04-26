@@ -3,12 +3,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0%;
   padding: 0%;
   height: auto;
   width: 100%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .FooterCopyRight {
@@ -20,8 +19,6 @@
   padding: 0%;
   height: auto;
   width: 50%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .FooterCopyRight a {
@@ -45,8 +42,6 @@
   padding: 0%;
   height: auto;
   width: 50%;
-
-  border: solid 1px rebeccapurple;
 }
 
 .SocialIcon {
@@ -58,8 +53,6 @@
   padding: 0%;
   height: 100%;
   width: 5%;
-
-  /* border: solid 1px rebeccapurple; */
 }
 
 .SocialIcon a {
@@ -74,4 +67,18 @@
 
 .SocialIcon img:hover {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .FooterCopyRight { justify-content: center; width: 100%; }
+  .FooterCopyRight p { font-size: 15px; }
+  .FooterSocial { justify-content: center; width: 100%; }
+  .SocialIcon { width: 10%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .FooterCopyRight { justify-content: center; width: 100%; }
+  .FooterCopyRight p { font-size: 20px; }
+  .FooterSocial { justify-content: center; width: 100%; }
+  .SocialIcon { width: 8%; }
 }
