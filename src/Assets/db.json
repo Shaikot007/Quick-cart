@@ -1,0 +1,67 @@
+{
+  "Data": [
+    {
+      "product_id": 1,
+      "product_name": "Accessories",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/2.png",
+      "product_type": "Beauty",
+      "product_price": 20.0
+    },
+    {
+      "product_id": 2,
+      "product_name": "Equipments",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/7.png",
+      "product_type": "Shopping",
+      "product_price": 42.0
+    },
+    {
+      "product_id": 3,
+      "product_name": "Breakfast",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/5.png",
+      "product_type": "Food",
+      "product_price": 30.00
+    },
+    {
+      "product_id": 4,
+      "product_name": "Dessert",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/6.png",
+      "product_type": "Food",
+      "product_price": 12.00
+    },
+    {
+      "product_id": 5,
+      "product_name": "Surfing",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/9.png",
+      "product_type": "Travel",
+      "product_price": 270.00
+    },
+    {
+      "product_id": 6,
+      "product_name": "Gym",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/1.png",
+      "product_type": "beauty",
+      "product_price": 8.00
+    },
+    {
+      "product_id": 7,
+      "product_name": "Swimwear",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/8.png",
+      "product_type": "Shopping",
+      "product_price": 55.00
+    },
+    {
+      "product_id": 8,
+      "product_name": "Dinner",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/4.png",
+      "product_type": "Food",
+      "product_price": 33.00
+    },
+    {
+      "product_id": 9,
+      "product_name": "Sports",
+      "product_image": "https://quickcart.dmitryvolkov.me/img/products/3.png",
+      "product_type": "Beauty",
+      "product_price": 7.99
+    }
+  ]
+}

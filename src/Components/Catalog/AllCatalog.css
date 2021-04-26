@@ -1,0 +1,90 @@
+
+.AllCatalog {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 1% 2% 1% 2%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px purple;
+}
+
+.CardBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 1% 2% 1%;
+  padding: 0%;
+  height: 250px;
+  width: 30%;
+
+  border: solid 1px red;
+}
+
+.CardBoxImage {
+  margin: 2%;
+  padding: 0%;
+  height: 60%;
+  width: 90%;
+
+  border: solid 1px red;
+}
+
+.CardBoxImage img {
+  height: 100%;
+  width: 100%;
+}
+
+.CardBoxDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+  padding: 0%;
+  height: 30%;
+  width: 90%;
+
+  border: solid 1px red;
+}
+
+.Description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 80%;
+
+  border: solid 1px red;
+}
+
+.Description p {
+  margin-top: 1rem;
+  font-size: 20px;
+  line-height: 0.1;
+}
+
+.DescriptionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+
+  border: solid 1px red;
+}
+
+.Plus-circle:hover {
+  cursor: pointer;
+}

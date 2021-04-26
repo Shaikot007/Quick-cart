@@ -1,0 +1,78 @@
+.Catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0% 5% 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px green;
+}
+
+.CatalogHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px red;
+}
+
+.CatalogName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px red;
+}
+
+.CatalogName a {
+  margin: 0% 1% 0% 1%;
+}
+
+.CatalogName Button {
+  margin: 0% 1% 0% 1%;
+  padding: 0%;
+  height: 35px;
+  width: 100px;
+  color: black;
+  background-color: white;
+  border: solid 1px white;
+}
+
+.CatalogName Button:hover {
+  color: black;
+  background-color: white;
+  border: solid 1px white;
+}
+
+.CatalogName Button:focus {
+  color: black;
+  background-color: white;
+  border: solid 1px white;
+}
+
+.CatalogCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 1% 2% 1% 2%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px purple;
+}
+
