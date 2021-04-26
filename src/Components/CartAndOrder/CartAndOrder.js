@@ -9,7 +9,7 @@ function CartAndOrder() {
   return (
     <div className="CartAndOrder">
       <div className="CartAndOrderHeader">
-        <h1>Cart (0)</h1>
+        <h2>Cart (0)</h2>
       </div>
       <div className="Cart">
         <div className="CartItem">

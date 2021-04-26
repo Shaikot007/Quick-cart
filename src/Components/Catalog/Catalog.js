@@ -18,7 +18,7 @@ function Catalog() {
     <Router>
       <div className="Catalog">
         <div className="CatalogHeader">
-          <h1>Catalog</h1>
+          <h2>Catalog</h2>
         </div>
         <div className="CatalogName">
           <Link to="/">
