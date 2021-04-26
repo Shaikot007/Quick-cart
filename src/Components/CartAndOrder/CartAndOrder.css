@@ -10,3 +10,171 @@
 
   border: solid 1px rebeccapurple;
 }
+
+.CartAndOrderHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px red;
+}
+
+.Cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 1%;
+  height: auto;
+  width: 100%;
+
+  border: solid 1px red;
+}
+
+.CartItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 2% 0% 2%;
+  padding: 1%;
+  height: auto;
+  width: 70%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+
+.CartItemHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2% 0% 1% 0%;
+  padding: 0%;
+  height: 30px;
+  width: 100%;
+
+  border: solid 1px rebeccapurple;
+}
+
+.CartItemHeader p {
+  margin-top: 1rem;
+  font-size: 18px;
+  color: grey;
+}
+
+.CartItemBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: 100px;
+  width: 100%;
+
+  border: solid 1px rebeccapurple;
+}
+
+.CartItemBox p {
+  margin-top: 1rem;
+  font-size: 18px;
+  color: grey;
+}
+
+.CartItemFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 2% 0%;
+  padding: 0%;
+  height: 50px;
+  width: 100%;
+
+  border: solid 1px rebeccapurple;
+}
+
+.TotalBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+
+  /* border: solid 1px rebeccapurple; */
+}
+
+.TotalBox h6 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.TotalBox p {
+  margin-top: 0rem;
+  font-size: 18px;
+  color: grey;
+}
+
+.Payment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+
+  /* border: solid 1px rebeccapurple; */
+}
+
+.PaymentOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 0% 0% 1%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+
+  /* border: solid 1px rebeccapurple; */
+}
+
+.PaymentOptions img {
+  height: 100%;
+  width: 100%;
+}
+
+.Checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 2% 0% 2%;
+  padding: 1%;
+  height: auto;
+  width: 30%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.Checkout label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}

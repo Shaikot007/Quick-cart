@@ -22,17 +22,18 @@
   padding: 0%;
   height: 250px;
   width: 30%;
-
-  border: solid 1px red;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
 }
 
 .CardBoxImage {
   margin: 2%;
-  padding: 0%;
+  padding: 5% 0% 0% 0%;
   height: 60%;
   width: 90%;
 
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 .CardBoxImage img {
@@ -50,7 +51,7 @@
   height: 30%;
   width: 90%;
 
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 .Description {
@@ -63,7 +64,7 @@
   height: 100%;
   width: 80%;
 
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 .Description p {
@@ -82,9 +83,17 @@
   height: 100%;
   width: 20%;
 
-  border: solid 1px red;
+  /* border: solid 1px red; */
+}
+
+.Plus-circle {
+  color: #0f4c81;
+  border: solid 1px lightgrey;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px lightgrey;
 }
 
 .Plus-circle:hover {
+  color: teal;
   cursor: pointer;
 }
