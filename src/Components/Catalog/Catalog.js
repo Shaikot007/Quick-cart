@@ -24,7 +24,7 @@ function Catalog(props) {
           <h2>Catalog</h2>
         </div>
         <div className="CatalogName">
-          <Link to="/">
+          <Link to="/Quick-cart">
             <Button>All</Button>
           </Link>
           <Link to="/beautycatalog">
@@ -42,7 +42,7 @@ function Catalog(props) {
         </div>
         <div className="CatalogCards">
           <Switch>
-            <Route exact path="/">
+            <Route path="/Quick-cart">
               <AllCatalog onAdd={onAdd} />
             </Route>
             <Route path="/beautycatalog">
