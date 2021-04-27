@@ -4,13 +4,13 @@ import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import VisaCard from "../../Assets/Images/Visa_card.png";
 import MasterCard from "../../Assets/Images/Master_card.png";
 import Paypal from "../../Assets/Images/Paypal.png";
-import CartItems from "../CartItems/CartItems";
+import CartItems from "./CartItems";
 
 function CartAndOrder(props) {
 
   const { cartItems, onAdd, onRemove } = props;
 
-  const totalPrice = cartItems.reduce((a, c) => a + c.quantity * c.product_price, 0);
+  const totalPrice = cartItems.reduce((acc, cur) => acc + cur.quantity * cur.product_price, 0);
 
   return (
     <div className="CartAndOrder">

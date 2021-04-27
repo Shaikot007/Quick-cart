@@ -1,6 +1,5 @@
 import React from "react";
 import "./CartItems.scss";
-import { Button } from "reactstrap";
 
 function CartItems(props) {
 
@@ -10,18 +9,18 @@ function CartItems(props) {
     <div className="CartItems">
       {cartItems.map(item => (
         <div className="CartProduct" key={item.product_id}>
-          <div className="CartInfo">
+          <div className="CartInfoImage">
             <img src={item.product_image} alt="cart" />
           </div>
-          <div className="CartInfo">
+          <div className="CartInfoName">
             <p>{item.product_name}</p>
           </div>
-          <div className="CartInfo">
-            <Button onClick={() => onRemove(item)}>-</Button>
+          <div className="CartInfoQuantity">
+            <p onClick={() => onRemove(item)}>-</p>
             <p>{item.quantity}</p>
-            <Button onClick={() => onAdd(item)}>+</Button>
+            <p onClick={() => onAdd(item)}>+</p>
           </div>
-          <div className="CartInfo">
+          <div className="CartInfoPrice">
             <p>{item.quantity * item.product_price.toFixed(2)}</p>
           </div>
         </div>

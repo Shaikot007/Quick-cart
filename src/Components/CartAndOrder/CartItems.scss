@@ -1,0 +1,99 @@
+.CartItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+}
+
+.CartProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.CartInfoImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.CartInfoImage img {
+  height: 80%;
+  width: 80%;
+}
+
+.CartInfoName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.CartInfoName p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.CartInfoQuantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+  border: solid 1px lightgrey;
+  border-radius: 40px;
+}
+
+.CartInfoQuantity p {
+  margin-top: 1rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.CartInfoPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.CartInfoPrice p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .CartItems { overflow-y: scroll; }
+  .CartInfoImage img { height: 35px; width: 40px; }
+  .CartInfoName { width: 40%; }
+  .CartInfoQuantity { width: 30%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .CartInfoImage { width: 20%; }
+}

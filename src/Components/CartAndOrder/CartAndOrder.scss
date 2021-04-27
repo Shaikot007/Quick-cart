@@ -69,11 +69,11 @@
   justify-content: center;
   margin: 1% 0% 1% 0%;
   padding: 5% 1% 5% 1%;
-  height: 200px;
+  height: auto;
   width: 100%;
   border: solid 1px lightgrey;
   border-radius: 10px;
-  overflow-x: auto;
+  overflow: auto;
 }
 
 .CartItemBox p {
@@ -167,6 +167,7 @@
   .CartAndOrder { padding: 0% 5% 0% 5%; }
   .Cart { flex-direction: column; }
   .CartItem { width: 95%; }
+  .CartItemBox { padding: 0%; }
   .Checkout { margin: 5% 2% 5% 2%; width: 100%; }
   .Checkout form { width: 100%; }
   .PaymentOptions { height: 85%; width: 30%; }

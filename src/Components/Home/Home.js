@@ -39,7 +39,7 @@ function Home() {
 
   return (
     <div className="Home">
-      <Header />
+      <Header cartItems={cartItems} />
       <Catalog onAdd={onAdd} />
       <CartAndOrder cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />
       <About />

@@ -4,7 +4,10 @@ import Logo from "../../Assets/Images/logo.svg";
 import { Button } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Header() {
+function Header(props) {
+
+  const { cartItems } = props;
+
   return (
     <div className="Header">
       <div className="HeaderLeft">
@@ -19,7 +22,7 @@ function Header() {
       <div className="HeaderRight">
         <Button>
           <FontAwesomeIcon className="Shopping-cart" icon="shopping-cart" size="lg" />
-          Cart
+          Cart({cartItems.length})
         </Button>
       </div>
     </div>

@@ -46,7 +46,7 @@
 
 .HeaderText p {
   margin-top: 1rem;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 0.1;
 }
 
@@ -96,16 +96,17 @@
 
 @media only screen and (min-width: 280px) and (max-width: 480px) {
   .Header { padding: 0% 5% 0% 5%; }
+  .HeaderLeft { width: 65%; }
   .HeaderText { padding: 0% 1% 0% 5%; }
-  .HeaderText p { font-size: 20px; }
-  .HeaderRight { justify-content: center; }
+  .HeaderText p { font-size: 16px; }
+  .HeaderRight { justify-content: center; width: 35%; }
   .HeaderRight Button { width: 100%; }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .Header { padding: 0% 5% 0% 5%; }
   .HeaderText { padding: 0% 1% 0% 5%; }
-  .HeaderText p { font-size: 20px; }
+  .HeaderText p { font-size: 25px; }
   .HeaderRight { justify-content: center; }
   .HeaderRight Button { width: 80%; }
 }

@@ -10,34 +10,11 @@
   width: 100%;
 }
 
-.FooterCopyRight {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 0%;
-  padding: 0%;
-  height: auto;
-  width: 50%;
-}
-
-.FooterCopyRight a {
-  text-decoration: none;
-  color: grey;
-}
-
-.FooterCopyRight p {
-  margin-top: 1rem;
-  padding: 0% 4% 0% 1%;
-  font-size: 14px;
-  color: grey;
-}
-
 .FooterSocial {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: 0%;
   padding: 0%;
   height: auto;
@@ -67,6 +44,29 @@
 
 .SocialIcon img:hover {
   cursor: pointer;
+}
+
+.FooterCopyRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 50%;
+}
+
+.FooterCopyRight a {
+  text-decoration: none;
+  color: grey;
+}
+
+.FooterCopyRight p {
+  margin-top: 1rem;
+  padding: 0% 4% 0% 1%;
+  font-size: 14px;
+  color: grey;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 480px) {
