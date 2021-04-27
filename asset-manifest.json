@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Quick-cart/static/css/main.5bac8c7e.chunk.css",
-    "main.js": "/Quick-cart/static/js/main.2323aa5e.chunk.js",
-    "main.js.map": "/Quick-cart/static/js/main.2323aa5e.chunk.js.map",
+    "main.js": "/Quick-cart/static/js/main.6d3dc95d.chunk.js",
+    "main.js.map": "/Quick-cart/static/js/main.6d3dc95d.chunk.js.map",
     "runtime-main.js": "/Quick-cart/static/js/runtime-main.1ea2173b.js",
     "runtime-main.js.map": "/Quick-cart/static/js/runtime-main.1ea2173b.js.map",
     "static/css/2.150d169a.chunk.css": "/Quick-cart/static/css/2.150d169a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d3c36eb4.chunk.js",
     "static/css/main.5bac8c7e.chunk.css",
-    "static/js/main.2323aa5e.chunk.js"
+    "static/js/main.6d3dc95d.chunk.js"
   ]
 }
