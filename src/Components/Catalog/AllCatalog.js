@@ -3,7 +3,10 @@ import "./AllCatalog.scss";
 import Data from "../../Assets/db.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function AllCatalog() {
+function AllCatalog(props) {
+
+  const { onAdd } = props;
+
   return (
     <div className="AllCatalog">
       {Data.Data.map(data =>
@@ -17,7 +20,7 @@ function AllCatalog() {
               <p>$ {data.product_price}</p>
             </div>
             <div className="DescriptionButton">
-              <FontAwesomeIcon className="Plus-circle" icon="plus-circle" size="lg" />
+              <FontAwesomeIcon className="Plus-circle" icon="plus-circle" size="lg" onClick={() => onAdd(data)} />
             </div>
           </div>
         </div>

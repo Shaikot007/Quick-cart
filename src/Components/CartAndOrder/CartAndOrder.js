@@ -4,12 +4,18 @@ import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import VisaCard from "../../Assets/Images/Visa_card.png";
 import MasterCard from "../../Assets/Images/Master_card.png";
 import Paypal from "../../Assets/Images/Paypal.png";
+import CartItems from "../CartItems/CartItems";
 
-function CartAndOrder() {
+function CartAndOrder(props) {
+
+  const { cartItems, onAdd, onRemove } = props;
+
+  const totalPrice = cartItems.reduce((a, c) => a + c.quantity * c.product_price, 0);
+
   return (
     <div className="CartAndOrder">
       <div className="CartAndOrderHeader">
-        <h2>Cart (0)</h2>
+        <h2>Cart ({cartItems.length})</h2>
       </div>
       <div className="Cart">
         <div className="CartItem">
@@ -20,12 +26,13 @@ function CartAndOrder() {
             <p>Price</p>
           </div>
           <div className="CartItemBox">
-            <p>Cart is empty</p>
+            {cartItems.length === 0 ? <p>Cart is empty</p> :
+            <CartItems cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />}
           </div>
           <div className="CartItemFooter">
             <div className="TotalBox">
               <h6>Total:</h6>
-              <p>$ 0.00</p>
+              {cartItems.length === 0 ? <p>$ 0.00</p> : "$ " + totalPrice.toFixed(2)}
             </div>
             <div className="Payment">
               <div className="PaymentOptions">

@@ -1,0 +1,67 @@
+.CartItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+
+  // border: solid 1px rebeccapurple;
+}
+
+.CartProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+
+  // border: solid 1px rebeccapurple;
+}
+
+.CartInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 25%;
+
+  // border: solid 1px red;
+}
+
+.CartInfo img {
+  height: 100%;
+  width: 100%;
+}
+
+.CartInfo p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.CartInfo Button {
+  margin: 0% 10% 0% 10%;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.CartInfo Button:hover {
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.CartInfo Button:focus {
+  color: black;
+  background-color: white;
+  border: none;
+}

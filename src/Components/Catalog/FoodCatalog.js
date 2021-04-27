@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const result = Data.Data.filter(item => item.product_type === "Food");
 
-function FoodCatalog() {
+function FoodCatalog(props) {
+
+  const { onAdd } = props;
+
   return (
     <div className="AllCatalog">
       {result.map(data =>
@@ -19,7 +22,7 @@ function FoodCatalog() {
               <p>$ {data.product_price}</p>
             </div>
             <div className="DescriptionButton">
-              <FontAwesomeIcon className="Plus-circle" icon="plus-circle" size="lg" />
+              <FontAwesomeIcon className="Plus-circle" icon="plus-circle" size="lg" onClick={() => onAdd(data)} />
             </div>
           </div>
         </div>

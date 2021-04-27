@@ -13,7 +13,10 @@ import {
   Link
 } from "react-router-dom";
 
-function Catalog() {
+function Catalog(props) {
+
+  const { onAdd } = props;
+
   return (
     <Router>
       <div className="Catalog">
@@ -40,19 +43,19 @@ function Catalog() {
         <div className="CatalogCards">
           <Switch>
             <Route exact path="/">
-              <AllCatalog />
+              <AllCatalog onAdd={onAdd} />
             </Route>
             <Route path="/beautycatalog">
-              <BeautyCatalog />
+              <BeautyCatalog onAdd={onAdd} />
             </Route>
             <Route path="/foodcatalog">
-              <FoodCatalog />
+              <FoodCatalog onAdd={onAdd} />
             </Route>
             <Route path="/shoppingcatalog">
-              <ShoppingCatalog />
+              <ShoppingCatalog onAdd={onAdd} />
             </Route>
             <Route path="/travelcatalog">
-              <TravelCatalog />
+              <TravelCatalog onAdd={onAdd} />
             </Route>
           </Switch>
         </div>
