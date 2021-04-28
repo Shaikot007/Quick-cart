@@ -8,6 +8,8 @@ import Footer from "../Footer/Footer";
 
 function Home() {
 
+  const [catalog, setCatalog] = useState("");
+
   const [cartItems, setCartItems] = useState([]);
 
   const onAdd = (data) => {
@@ -40,7 +42,7 @@ function Home() {
   return (
     <div className="Home">
       <Header cartItems={cartItems} />
-      <Catalog onAdd={onAdd} />
+      <Catalog catalog={catalog} setCatalog={setCatalog} onAdd={onAdd} />
       <CartAndOrder cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />
       <About />
       <Footer />
