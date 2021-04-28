@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Quick-cart/static/css/main.c5170d4d.chunk.css",
+    "main.css": "/Quick-cart/static/css/main.33656749.chunk.css",
     "main.js": "/Quick-cart/static/js/main.38d2f61c.chunk.js",
     "main.js.map": "/Quick-cart/static/js/main.38d2f61c.chunk.js.map",
     "runtime-main.js": "/Quick-cart/static/js/runtime-main.f0686751.js",
@@ -12,7 +12,7 @@
     "static/js/3.8bce85e6.chunk.js.map": "/Quick-cart/static/js/3.8bce85e6.chunk.js.map",
     "index.html": "/Quick-cart/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Quick-cart/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c5170d4d.chunk.css.map": "/Quick-cart/static/css/main.c5170d4d.chunk.css.map",
+    "static/css/main.33656749.chunk.css.map": "/Quick-cart/static/css/main.33656749.chunk.css.map",
     "static/js/2.b6f95b7c.chunk.js.LICENSE.txt": "/Quick-cart/static/js/2.b6f95b7c.chunk.js.LICENSE.txt",
     "static/media/Master_card.60e7bd01.png": "/Quick-cart/static/media/Master_card.60e7bd01.png",
     "static/media/Paypal.3acce147.png": "/Quick-cart/static/media/Paypal.3acce147.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.f0686751.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b6f95b7c.chunk.js",
-    "static/css/main.c5170d4d.chunk.css",
+    "static/css/main.33656749.chunk.css",
     "static/js/main.38d2f61c.chunk.js"
   ]
 }
