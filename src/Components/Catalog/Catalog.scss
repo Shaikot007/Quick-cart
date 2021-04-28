@@ -32,10 +32,6 @@
   width: 100%;
 }
 
-.CatalogName a {
-  margin: 0% 1% 0% 1%;
-}
-
 .CatalogName Button {
   margin: 0% 1% 0% 1%;
   padding: 0%;
@@ -71,11 +67,10 @@
 
 @media only screen and (min-width: 280px) and (max-width: 480px) {
   .Catalog { padding: 0% 5% 0% 5%; }
-  .CatalogName a { margin: 1% 2% 1% 2%; }
-  .CatalogName Button { margin: 0%; height: 30px; width: 70px; }
+  .CatalogName Button { margin: 1% 2% 1% 2%; height: 30px; width: 70px; }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .Catalog { padding: 0% 5% 0% 5%; }
-  .CatalogName Button { margin: 0%; height: 30px; width: 70px; }
+  .CatalogName Button { margin: 1%; height: 30px; width: 70px; }
 }
