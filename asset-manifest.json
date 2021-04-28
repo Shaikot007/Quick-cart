@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Quick-cart/static/css/main.5bac8c7e.chunk.css",
-    "main.js": "/Quick-cart/static/js/main.6d3dc95d.chunk.js",
-    "main.js.map": "/Quick-cart/static/js/main.6d3dc95d.chunk.js.map",
-    "runtime-main.js": "/Quick-cart/static/js/runtime-main.1ea2173b.js",
-    "runtime-main.js.map": "/Quick-cart/static/js/runtime-main.1ea2173b.js.map",
+    "main.css": "/Quick-cart/static/css/main.c5170d4d.chunk.css",
+    "main.js": "/Quick-cart/static/js/main.38d2f61c.chunk.js",
+    "main.js.map": "/Quick-cart/static/js/main.38d2f61c.chunk.js.map",
+    "runtime-main.js": "/Quick-cart/static/js/runtime-main.f0686751.js",
+    "runtime-main.js.map": "/Quick-cart/static/js/runtime-main.f0686751.js.map",
     "static/css/2.150d169a.chunk.css": "/Quick-cart/static/css/2.150d169a.chunk.css",
-    "static/js/2.d3c36eb4.chunk.js": "/Quick-cart/static/js/2.d3c36eb4.chunk.js",
-    "static/js/2.d3c36eb4.chunk.js.map": "/Quick-cart/static/js/2.d3c36eb4.chunk.js.map",
-    "static/js/3.f7996bba.chunk.js": "/Quick-cart/static/js/3.f7996bba.chunk.js",
-    "static/js/3.f7996bba.chunk.js.map": "/Quick-cart/static/js/3.f7996bba.chunk.js.map",
+    "static/js/2.b6f95b7c.chunk.js": "/Quick-cart/static/js/2.b6f95b7c.chunk.js",
+    "static/js/2.b6f95b7c.chunk.js.map": "/Quick-cart/static/js/2.b6f95b7c.chunk.js.map",
+    "static/js/3.8bce85e6.chunk.js": "/Quick-cart/static/js/3.8bce85e6.chunk.js",
+    "static/js/3.8bce85e6.chunk.js.map": "/Quick-cart/static/js/3.8bce85e6.chunk.js.map",
     "index.html": "/Quick-cart/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Quick-cart/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.5bac8c7e.chunk.css.map": "/Quick-cart/static/css/main.5bac8c7e.chunk.css.map",
-    "static/js/2.d3c36eb4.chunk.js.LICENSE.txt": "/Quick-cart/static/js/2.d3c36eb4.chunk.js.LICENSE.txt",
+    "static/css/main.c5170d4d.chunk.css.map": "/Quick-cart/static/css/main.c5170d4d.chunk.css.map",
+    "static/js/2.b6f95b7c.chunk.js.LICENSE.txt": "/Quick-cart/static/js/2.b6f95b7c.chunk.js.LICENSE.txt",
     "static/media/Master_card.60e7bd01.png": "/Quick-cart/static/media/Master_card.60e7bd01.png",
     "static/media/Paypal.3acce147.png": "/Quick-cart/static/media/Paypal.3acce147.png",
     "static/media/logo.f9a307e2.svg": "/Quick-cart/static/media/logo.f9a307e2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ea2173b.js",
+    "static/js/runtime-main.f0686751.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.d3c36eb4.chunk.js",
-    "static/css/main.5bac8c7e.chunk.css",
-    "static/js/main.6d3dc95d.chunk.js"
+    "static/js/2.b6f95b7c.chunk.js",
+    "static/css/main.c5170d4d.chunk.css",
+    "static/js/main.38d2f61c.chunk.js"
   ]
 }
