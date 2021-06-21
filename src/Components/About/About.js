@@ -2,7 +2,7 @@ import React from "react";
 import "./About.scss";
 
 function About() {
-  return(
+  return (
     <div className="About">
       <div className="AboutHeader">
         <h2>About QuickCart</h2>

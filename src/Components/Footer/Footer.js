@@ -25,9 +25,9 @@ function Footer() {
         </div>
       </div>
       <div className="FooterCopyRight">
-          <p>© 2020 QuickCart</p>
-          <p>Create by <a href="https://github.com/Shaikot007" target="_blank" rel="noreferrer">Shaikot</a></p>
-        </div>
+        <p>© 2021 QuickCart</p>
+        <p>Made by <a href="https://github.com/Shaikot007" target="_blank" rel="noreferrer">Shaikot</a></p>
+      </div>
     </div>
   );
 };

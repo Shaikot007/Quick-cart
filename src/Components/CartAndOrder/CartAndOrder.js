@@ -9,7 +9,6 @@ import CartItems from "./CartItems";
 function CartAndOrder(props) {
 
   const { cartItems, onAdd, onRemove } = props;
-
   const totalPrice = cartItems.reduce((acc, cur) => acc + cur.quantity * cur.product_price, 0);
 
   return (
@@ -27,7 +26,7 @@ function CartAndOrder(props) {
           </div>
           <div className="CartItemBox">
             {cartItems.length === 0 ? <p>Cart is empty</p> :
-            <CartItems cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />}
+              <CartItems cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />}
           </div>
           <div className="CartItemFooter">
             <div className="TotalBox">

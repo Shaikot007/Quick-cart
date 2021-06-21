@@ -9,26 +9,25 @@ import Footer from "../Footer/Footer";
 function Home() {
 
   const [catalog, setCatalog] = useState("");
-
   const [cartItems, setCartItems] = useState([]);
 
   const onAdd = (data) => {
     const exits = cartItems.find(item => item.product_id === data.product_id);
-    if(exits) {
+    if (exits) {
       setCartItems(
         cartItems.map(item => item.product_id === data.product_id ?
-          {...exits, quantity: exits.quantity + 1} : item
+          { ...exits, quantity: exits.quantity + 1 } : item
         )
       );
     }
     else {
-      setCartItems([...cartItems, {...data, quantity: 1}]);
+      setCartItems([...cartItems, { ...data, quantity: 1 }]);
     }
   };
 
   const onRemove = (data) => {
     const exits = cartItems.find(item => item.product_id === data.product_id);
-    if(exits.quantity === 1) {
+    if (exits.quantity === 1) {
       setCartItems(cartItems.filter(item => item.product_id !== data.product_id));
     } else {
       setCartItems(

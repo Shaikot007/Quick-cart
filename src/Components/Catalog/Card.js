@@ -6,9 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Card(props) {
 
   const { catalog, onAdd } = props;
-
   const productData = Data.Data;
-
   const filteredData = productData.filter(data => data.product_type === catalog);
 
   return (

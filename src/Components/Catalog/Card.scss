@@ -1,4 +1,3 @@
-
 .Card {
   display: flex;
   flex-direction: row;
@@ -77,13 +76,20 @@
 }
 
 .Plus-circle {
-  color: grey;
+  color: #0f4c81;
   border: solid 1px lightgrey;
   border-radius: 50%;
+  transition: transform .7s ease-in-out;
 }
 
 .Plus-circle:hover {
-  color: teal;
+  color: #0f4c81;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.Plus-circle:focus {
+  color: #0f4c81;
   cursor: pointer;
 }
 
